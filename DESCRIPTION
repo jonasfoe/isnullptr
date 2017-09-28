@@ -1,6 +1,6 @@
 Package: isnullptr
 Title: Check if an 'externalptr' is a Null Pointer
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: person("Jonas", "Förster", email = "jonasfoerster@gmail.com", role = c("aut", "cre"))
 Description:
     Check if an 'externalptr' is a null pointer.
