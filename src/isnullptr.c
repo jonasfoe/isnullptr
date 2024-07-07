@@ -18,5 +18,5 @@ void R_init_isnullptr(DllInfo *dll)
 
 SEXP isnullptr_(SEXP pointer)
 {
-    return ScalarLogical(!R_ExternalPtrAddr(pointer));
+    return ScalarLogical(TYPEOF(pointer) == EXTPTRSXP && !R_ExternalPtrAddr(pointer));
 }
